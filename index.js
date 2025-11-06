@@ -1,5 +1,5 @@
 const mongoose= require("mongoose")
-
+//////////////////////////Connect to Mongodb////////////////////////////
 main()
 .then(()=>{
     console.log("connectino successfully")
@@ -80,4 +80,5 @@ const User=mongoose.model("User",userSchema)
 // })
 // User.findByIdAndDelete("id").then((res)=>{
 //     console.log(res)
+
 // })
