@@ -1,3 +1,4 @@
+//learn mongoose
 const mongoose= require("mongoose")
 //////////////////////////Connect to Mongodb////////////////////////////
 main()
@@ -82,3 +83,4 @@ const User=mongoose.model("User",userSchema)
 //     console.log(res)
 
 // })
+
